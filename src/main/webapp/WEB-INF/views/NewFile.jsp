@@ -15,30 +15,7 @@
 </head>
 <body>
 <div class="container">
-	<div id="app">
-		{{ message }}
-	</div>
-	<div id="app1">
-		<my-component></my-component>
-	</div>
-</div>
-
-<script>
-	new Vue({
-		el: "#app",
-		data: {
-			message: "Hello Vue.js"
-		}
-	});
 	
-	new Vue({
-		el: "#app1",
-		components: {
-			"my-component":{
-				template: "<div>A custom component!</div>"
-			}
-		}
-	});
-</script>
+</div>
 </body>
 </html>
